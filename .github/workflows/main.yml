@@ -1,4 +1,4 @@
-name: Nombre del flujo de trabajo
+name: poemas
 
 on:
   push:
@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Ejecutar el código de la API de poemas
+    - name: poeemas
       run: node index.js
